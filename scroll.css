@@ -1,0 +1,36 @@
+body
+{
+ height:1500px;
+ background-color:grey;
+}
+body::-webkit-scrollbar 
+{
+ width: 15px;
+}
+body::-webkit-scrollbar-track 
+{
+ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+ border-radius:10px;
+}
+body::-webkit-scrollbar-thumb
+{
+ background-color: orange;
+ border-radius:10px;
+}
+
+/*
+::-webkit-scrollbar is the complete scrollbar.
+
+::-webkit-scrollbar-button is upward and downward button on the scrollbar
+
+::-webkit-scrollbar-track is the empty space in the scrollbar below the moving bar
+
+::-webkit-scrollbar-track-piece is the area scrollbar excluding the scrolling element
+
+::-webkit-scrollbar-thumb is the draggable or scrolling element in a scrollbar
+
+::-webkit-scrollbar-corner is the meeting area of horizontal and vertical scrollbar
+
+::-webkit-resizer is the draggable or resizing element that displayed at the bottom corner of a scrollbar
+
+*/
